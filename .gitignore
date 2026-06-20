@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Flask session
+flask_session/
+
+# Environment variables
+.env
+api_key.env
+api_key.py
+
+# Credenciales (contienen secretos)
+credentials.json
+service_account.json
+service_account_old.json
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temp
+temp_files/
+*.tmp
+
+# Grandes archivos multimedia
+*.mp4
+*.trec
